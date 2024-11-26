@@ -1,0 +1,121 @@
+body {
+    background-color: #ffffff;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.register-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+
+.hero-section {
+    background: url('images/hero1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #6c757d;
+}
+
+
+h1 {
+    color: #007bff; 
+}
+
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+.card {
+    transition: transform 0.2s; /* Efek transisi saat hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Membesarkan card saat hover */
+}
+
+
+.btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat hover */
+    border-color: #0056b3; /* Warna border tombol saat hover */
+}
+
+
+.carousel-inner {
+    max-width: 600px; /* Membatasi lebar maksimal carousel */
+    margin: auto; /* Memusatkan carousel */
+}
+
+/* Gaya untuk testimonial card */
+.card-text {
+    font-style: italic; /* Mengubah gaya font menjadi italic untuk testimonial */
+}
+
+
+h3 {
+    color: #007bff; 
+    margin-bottom: 20px; 
+}
